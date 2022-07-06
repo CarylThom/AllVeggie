@@ -1,108 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Title
+AllVeggie
 
-Welcome USER_NAME,
+Milestone Project 3
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Python and Data Centric
+Development
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Description
 
-## Gitpod Reminders
+* AllVeggie is a site dedicated to vegetarian cooking. A place where recipes can be found or added by members who join the site.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ ## User Experience (UX)
 
-`python3 -m http.server`
+### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+* As a First Time Visitor - I would like to visit a site that is easy to understand and specialises in my dietary choices = The site is specifically vegetarian recipes and the navigation and search options make the site easy to navigate.
 
-Another blue button should appear to click: _Open Browser_.
+* As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse or search through the recipes available.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need recipe assistance.
 
-A blue button should appear to click: _Make Public_,
+### Returning/Frequent Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = Social media links to keep the user connected to others.
+* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to enjoy = The option to add, remove or edit your own recipes.
+* As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Design
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### General design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+*  
 
-------
+### Colour Scheme
 
-## Release History
+* 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Typography
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Imagery
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* The imagery included are - 
+## Wireframes
+![image](https://user-images.githubusercontent.com/95102264/177036116-c4887315-f8f7-48c6-b70c-0e8bed4d1542.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around vegetarian and sustainable cooking. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Features
+ 
+## Languages Used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* HTML5 - [https://en.wikipedia.org/wiki/HTML5]
+* CSS3 - [https://en.wikipedia.org/wiki/CSS#CSS_3]
+* JavaScript (ES6) - [https://en.wikipedia.org/wiki/JavaScript]
+* Python3 - [https://en.wikipedia.org/wiki/Python_(programming_language)]
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Frameworks, Libraries & Programs Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Google Fonts: Google Fonts was used for the main font(s).
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Font Awesome: Font Awesome was used for the rocket icon.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* GitHub: GitHub is used to store the project code after being pushed from Git. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* [www.Responsivedesignchecker.com]
 
-------
+* Pencil: - Pencil was used to create the wireframe.
 
-## FAQ about the uptime script
+## Testing
 
-**Why have you added this script?**
+* Lighthouse test report: Lighthouse test for mobile  
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* Lighthouse test report: Lighthouse test for desktop 
 
-**How will this affect me?**
+* W3C Markup Validator report: 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* W3C CSS Validator report:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* Javascript Validator report: [https://beautifytools.com/javascript-validator.php] 
 
-**So….?**
+## Deployment
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/CarylThom/), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-**Can I opt out?**
+The live link can be found [here](https://carylthom.github.io//)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Local Deployment
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-**Anything more?**
+- `git clone https://github.com/CarylThom/`
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
----
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/)
 
-Happy coding!
+## Credits
+
+### Acknowledgements
+
+* Reviewing/revisiting lessons from the relevant sections of the course via Code Institute. 
+
+* Mentor Tim Nelson at Code Institute
+
+* Tutors and student support at Code Institute
+
+* Stack Overflow [http://www.stackoverflow.com]
+
+* w3schools [http://www.w3schools.com]
+
+### Content
+
+* All content was written by the developer.
+
+### Media
+
+* Image(s) were found on 
