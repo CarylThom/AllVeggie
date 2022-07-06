@@ -26,7 +26,12 @@ Development
 * As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to enjoy = The option to add, remove or edit your own recipes.
 * As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site.
 
+## CRUD Functionality
 
+* Create - 
+* Read - 
+* Update -
+* Delete - 
 ## Design
 
 ### General design
