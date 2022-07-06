@@ -64,7 +64,7 @@ Development
 
 * Google Fonts: Google Fonts was used for the main font(s).
 
-* Font Awesome: Font Awesome was used for the rocket icon.
+* Font Awesome: Font Awesome was used for all icons.
 
 * Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
@@ -86,6 +86,8 @@ Development
 
 
 * Javascript Validator report: [https://beautifytools.com/javascript-validator.php] 
+
+* Python test report: 
 
 ## Deployment
 
