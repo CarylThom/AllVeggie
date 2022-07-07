@@ -39,4 +39,21 @@ def delete_category(category_id):
     category = Category.query.get_or_404(category_id)
     db.session.delete(category)
     db.session.commit()
-    return redirect(url_for("categories"))    
+    return redirect(url_for("categories"))
+
+
+@app.route("/add_recipe", methods=["GET", "POST"])
+def add_recipe():
+    categories = list(Category.query.order_by(Category.category_name).all())
+    if request.method == "POST":
+        recipe = Recipe(
+            recipe_name=request.form.get("recipe_name"),
+            recipe_ingredients=request.form.get("recipe_ingredients"),
+            recipe_method=request.form.get("recipe_method"),
+            is_vegan=bool(True if request.form.get("is_vegan") else False),
+            category_id=request.form.get("category_id")
+        )
+        db.session.add(recipe)
+        db.session.commit()
+        return redirect(url_for("home"))
+    return render_template("add_recipe.html", categories=categories) 

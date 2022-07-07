@@ -19,10 +19,10 @@ class Recipe(db.Model):
     recipe_ingredients = db.Column(db.Text, nullable=False)
     recipe_method = db.Column(db.Text, nullable=False)
     is_vegan = db.Column(db.Boolean, default=False, nullable=False)
-    category_id = db.Column(db.Integer, db.ForeignKey("category.id", ondelete="CASCADE"), nullable=False)
+    category_id = db.Column(db.Integer, db.ForeignKey("category.id", ondelete="CASCADE"), nullable="False")
 
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
-        return "#{0} - Task: {1} | Urgent: {2}".format(
+        return "#{0} - Recipe: {1} | Urgent: {2}".format(
             self.id, self.recipe_name, self.is_vegan
         )
