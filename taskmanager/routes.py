@@ -52,11 +52,23 @@ def add_recipe():
             recipe_ingredients=request.form.get("recipe_ingredients"),
             recipe_method=request.form.get("recipe_method"),
             is_vegan=bool(True if request.form.get("is_vegan") else False),
-            category_id=request.form.get("category_id"),
+            category_id=request.form.get("category_id")
         )
-        print("\n\n\n\n\n test: ", request.form.get("category_id"))
-
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("home"))
     return render_template("add_recipe.html", categories=categories) 
+    
+
+@app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
+def edit_recipe(recipe_id):
+    recipe = Recipe.query.get_or_404(recipe_id)
+    categories = list(Category.query.order_by(Category.category_name).all())
+    if request.method == "POST":
+        recipe_name=request.form.get("recipe_name"),
+        recipe_ingredients=request.form.get("recipe_ingredients"),
+        recipe_method=request.form.get("recipe_method"),
+        is_vegan=bool(True if request.form.get("is_vegan") else False),
+        category_id=request.form.get("category_id")
+        db.session.commit()
+    return render_template("edit_recipe.html", recipe=recipe, categories=categories)
