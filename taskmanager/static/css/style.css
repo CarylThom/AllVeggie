@@ -1,11 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Press+Start+2P&display=swap');
+
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
    
-  
 }
 
 main {
     flex: 1 0 auto;
+}
+
+.footer-text a {
+    color: rgb(5, 49, 5);
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-right: 3%;
+    
+}
+
+.footer-text a:hover {
+    color: #fafafa;
+}
+
+.site-logo {
+    font-family: 'Dancing Script';
+    color: rgb(5, 49, 5);
+    font-size: 3rem;
+    padding-left: 3%;
+}
+
+.container {
+    font-family: 'Playfair Display';
+    color: rgb(5, 49, 5);
+
+}
+
+.nav-wrapper {
+    font-family: "Playfair Display";
+    color: rgb(5, 49, 5);
+    
 }

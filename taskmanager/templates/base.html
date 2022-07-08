@@ -18,6 +18,7 @@
 
 <body>
 
+
     <header>
         <!-- top navbar -->
         <nav class="orange lighten-1">
@@ -33,12 +34,13 @@
         </nav>
 
         <!-- mobile navbar-->
-        <ul class="sidenav" id="mobile-nav">
+        <ul class="sidenav" id="mobile-demo">
             <li><a href="{{ url_for('home') }}">Home</a></li>
             <li><a href="{{ url_for('categories') }}">Categories</a></li>
             <li><a href="{{ url_for('add_recipe') }}">Add A Recipe</a></li>
         </ul>
     </header>
+
 
 
     <main class="container">
@@ -49,13 +51,14 @@
     <footer class="orange lighten-1">
         <div class="footer-text">
             <div class="container">
-                <a class="social" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i>
-                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a>
-                        <a class="white-text right" href="https://www.greenpan.co.uk" target="_blank" alt="noopener">We
-                            are proud to promote
-                            GreenPan.co.uk</a>
-
+                <a href="https://www.facebook.com" target="_blank" alt="noopener"><i class="fab fa-facebook small">
+                    </i></a>
+                <a href="https://www.youtube.com" target="_blank" alt="noopener"><i class="fab fa-youtube-square small">
+                    </i></a>
+                <a href="https://www.instagram.com" target="_blank" alt="noopener"><i class="fab fa-instagram small">
+                    </i></a>
+                <a class="green-darken-4 right" href="https://www.greenpan.co.uk" target="_blank" alt="noopener">Proud to
+                    promote GreenPan.co.uk</a>
             </div>
         </div>
     </footer>

@@ -51,6 +51,7 @@ def add_recipe():
             recipe_ingredients=request.form.get("recipe_ingredients"),
             recipe_method=request.form.get("recipe_method"),
             is_vegan=bool(True if request.form.get("is_vegan") else False),
+            is_gf=bool(True if request.form.get("is_vegan") else False),
             category_id=request.form.get("category_id")
         )
         db.session.add(recipe)
