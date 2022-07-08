@@ -12,11 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+    
     <title>AllVeggie</title>
     <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/512/3637/3637856.png">
 </head>
 
 <body>
+<!--background-->
+<div class="bkground">
 
 
     <header>
@@ -46,6 +49,7 @@
     <main class="container">
         {% block content %}
         {% endblock %}
+    </div>
     </main>
 
     <footer class="orange lighten-1">
@@ -61,6 +65,7 @@
                     promote GreenPan.co.uk</a>
             </div>
         </div>
+    
     </footer>
 
 
