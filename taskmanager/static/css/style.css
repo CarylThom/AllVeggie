@@ -6,32 +6,13 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
- 
-   
 }
 
 main {
     flex: 1 0 auto;
 }
 
-/*background image*/
-.bkground {
-    background: url("https://images.unsplash.com/photo-1506458539166-34079f9e1d2c") center center / cover no-repeat fixed;
-    width: 100vw;
-    overflow: hidden;
-    height: 95vh;
-  
-  }
-  
-  .bkground:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-  
-  }
+
 
 .footer-text a {
     color: rgb(5, 49, 5);

@@ -12,65 +12,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         type="text/css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
-    
+
     <title>AllVeggie</title>
-    <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/512/3637/3637856.png">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3637/3637856.png">
 </head>
 
 <body>
-<!--background-->
-<div class="bkground">
-
-
-    <header>
-        <!-- top navbar -->
-        <nav class="orange lighten-1">
-            <div class="nav-wrapper">
-                <a href="{{ url_for('home') }}" class="site-logo">AllVeggie</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="{{ url_for('home') }}">Home</a></li>
-                    <li><a href="{{ url_for('categories') }}">Categories</a></li>
-                    <li><a href="{{ url_for('add_recipe') }}">Add A Recipe</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- mobile navbar-->
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('categories') }}">Categories</a></li>
-            <li><a href="{{ url_for('add_recipe') }}">Add A Recipe</a></li>
-        </ul>
-    </header>
-
-
-
-    <main class="container">
-        {% block content %}
-        {% endblock %}
-    </div>
-    </main>
-
-    <footer class="orange lighten-1">
-        <div class="footer-text">
-            <div class="container">
-                <a href="https://www.facebook.com" target="_blank" alt="noopener"><i class="fab fa-facebook small">
-                    </i></a>
-                <a href="https://www.youtube.com" target="_blank" alt="noopener"><i class="fab fa-youtube-square small">
-                    </i></a>
-                <a href="https://www.instagram.com" target="_blank" alt="noopener"><i class="fab fa-instagram small">
-                    </i></a>
-                <a class="green-darken-4 right" href="https://www.greenpan.co.uk" target="_blank" alt="noopener">Proud to
-                    promote GreenPan.co.uk</a>
-            </div>
-        </div>
     
-    </footer>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        <header>
+            <!-- top navbar -->
+            <nav class="orange lighten-1">
+                <div class="nav-wrapper">
+                    <a href="{{ url_for('home') }}" class="site-logo">AllVeggie</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="{{ url_for('home') }}">Home</a></li>
+                        <li><a href="{{ url_for('categories') }}">Categories</a></li>
+                        <li><a href="{{ url_for('add_recipe') }}">Add A Recipe</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- mobile navbar-->
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('categories') }}">Categories</a></li>
+                <li><a href="{{ url_for('add_recipe') }}">Add A Recipe</a></li>
+            </ul>
+        </header>
+
+
+
+        <main class="container">
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        <footer class="orange lighten-1">
+            <div class="footer-text">
+                <div class="container">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook small">
+                        </i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square small">
+                        </i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram small">
+                        </i></a>
+                    <a class="green-darken-4 right" href="https://www.greenpan.co.uk" target="_blank"
+                        >Proud to
+                        promote GreenPan.co.uk</a>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 
 </body>
 

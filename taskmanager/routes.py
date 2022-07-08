@@ -5,7 +5,8 @@ from taskmanager.models import Category, Recipe
 
 @app.route("/")
 def home():
-    return render_template("recipes.html")
+     recipes = list(Recipe.query.order_by(Recipe.id).all())
+     return render_template("recipes.html", recipes=recipes)
 
 
 @app.route("/categories")
@@ -51,9 +52,10 @@ def add_recipe():
             recipe_ingredients=request.form.get("recipe_ingredients"),
             recipe_method=request.form.get("recipe_method"),
             is_vegan=bool(True if request.form.get("is_vegan") else False),
-            is_gf=bool(True if request.form.get("is_vegan") else False),
-            category_id=request.form.get("category_id")
+            category_id=request.form.get("category_id"),
         )
+        print("\n\n\n\n\n test: ", request.form.get("category_id"))
+
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("home"))
