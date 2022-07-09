@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="green-text text-darken-4 center-align">Categories</h3>
+<h3 class="header white-text text-darken-4 center-align">Categories</h3>
 
 <div class="row">
     <div class="col s12 center-align">
-        <a href="{{ url_for('add_category') }}" class="btn-large green darken-2">
-            Add A Category <i class="fas fa-plus-square right"></i>
+        <a href="{{ url_for('add_category') }}" class="waves-effect waves-light btn green darken-4">
+            Add Your Own Category <i class="fas fa-plus right"></i>
         </a>
     </div>
 </div>
@@ -19,8 +19,8 @@
                 <span class="card-title">{{ category.category_name }}</span>
             </div>
             <div class="card-action">
-                <a href="{{ url_for('edit_category', category_id=category.id) }}" class="btn green accent-4">Edit</a>
-                <a href="{{ url_for('delete_category', category_id=category.id) }}" class="btn red">Delete</a>
+                <a href="{{ url_for('edit_category', category_id=category.id) }}" class="button waves-effect waves-light btn green darken-1">Edit</a>
+                <a href="{{ url_for('delete_category', category_id=category.id) }}" class="button waves-effect waves-light btn grey darken-3">Remove</a>
             </div>
         </div>
     </div>
