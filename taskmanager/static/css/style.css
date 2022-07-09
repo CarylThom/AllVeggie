@@ -41,20 +41,28 @@ main {
     color: rgb(5, 49, 5);
     font-size: 3rem;
     padding-left: 3%;
+
+    
 }
 
 .container  {
     font-family: 'Playfair Display';
-    color: rgb(5, 49, 5);
+  
 
 }
 
-.nav-wrapper {
-    font-family: "Playfair Display";
-    color: rgb(5, 49, 5);
-    
+.sidenav {
+    background-image: url("https://img.freepik.com/free-photo/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18717.jpg?t=st=1657368433~exp=1657369033~hmac=1b7939176ec4ab94ed0ce83e3135653f52c18353262202576d7b6efa0644f8d2&w=740");
+    background-repeat: no-repeat;
+    background-color: #1e1c25;
+
 }
 
+.sidenav li a {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 3rem;
+}
 
 
 
