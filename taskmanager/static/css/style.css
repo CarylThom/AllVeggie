@@ -94,13 +94,27 @@ main {
 }
 /*edit_categotries*/
 .card-panel {
-    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg?size=626&ext=jpg&ga=GA1.2.302614820.1657360069");
+    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg");
    
 }
 
 .waves-effect {
    font-family: 'Edu TAS Beginner';
    
+}
+/*categories box*/
+.box {
+    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg");
+}
+/*categories box text*/
+.card-title {
+    font-family: 'Dancing Script';
+    font-size: 2rem !important;
+}
+
+.btn1 {
+    font-size: 10px !important;
+    
 }
 
 
