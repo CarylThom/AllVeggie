@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&display=swap');
 
 
 body {
@@ -24,18 +24,6 @@ main {
 }
 
 
-.footer-text a {
-    color: rgb(5, 49, 5);
-    font-size: 20px;
-    letter-spacing: 5px;
-    padding-right: 3%;
-    
-}
-
-.footer-text a:hover {
-    color: #fafafa;
-}
-
 .site-logo {
     font-family: 'Dancing Script';
     color: rgb(5, 49, 5);
@@ -46,7 +34,7 @@ main {
 }
 
 .container  {
-    font-family: 'Playfair Display';
+    font-family: 'Edu TAS Beginner';
   
 
 }
@@ -67,6 +55,13 @@ main {
 
 }
 
+.collapsible-header {
+    font-size: 2rem;
+    font-family: 'Edu TAS Beginner';
+    
+
+}
+
 .collapsible-body {
     background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg?size=626&ext=jpg&ga=GA1.2.302614820.1657360069");
     background-position: center;
@@ -77,6 +72,18 @@ main {
     font-size: 2rem;
     font-family: 'Edu TAS Beginner';
 
+}
+
+.footer-text a {
+    color: rgb(5, 49, 5);
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-right: 3%;
+    
+}
+
+.footer-text a:hover {
+    color: #fafafa;
 }
 
 
