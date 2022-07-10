@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="header-text green-text text-darken-4 center-align">Edit Your Recipe</h3>
+<h3 class="header-text white-text center-align">Edit Your Recipe</h3>
 
 <div class="row card-panel green lighten-5">
     <form class="col s12" method="POST" action="{{ url_for('edit_recipe', recipe_id=recipe.id) }}">
@@ -61,7 +61,7 @@
 <!-- category id -->
 <div class="row">
     <div class="input-field col s12">
-        <i class="fas fa-folder-open prefix green-text text-darken-4"></i>
+        <i class="fas fa-cutlery prefix green-text text-darken-4"></i>
         <select id="category_id" name="category_id" class="validate" required>
             <option value="" disabled selected>Choose Category</option>
             {% for category in categories %}
@@ -79,7 +79,7 @@
 <!-- submit button -->
 <div class="row">
     <div class="col s12 center-align">
-        <button type="submit" class="btn-large green darken-1">
+        <button type="submit" class="waves-effect waves-light btn green darken-4">
             Edit Your Recipe <i class="fas fa-check right"></i>
         </button>
     </div>
