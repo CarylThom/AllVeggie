@@ -12,6 +12,9 @@ body {
     position: relative;
     background-color: #413434;
     height: 100hv;
+   
+ 
+  
 }
 
 main {
@@ -111,7 +114,7 @@ main {
     font-family: 'Dancing Script';
     font-size: 2rem !important;
 }
-
+/*categories buttons*/
 .btn1 {
     font-size: 10px !important;
     
