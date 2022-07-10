@@ -87,6 +87,11 @@ main {
    
 }
 
+.links li a {
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+}
+
 
 
 
