@@ -20,7 +20,6 @@
 <body>
 
 
-
     <header>
         <!-- top navbar -->
         <nav class="orange darken-3">
@@ -31,19 +30,21 @@
                     <li><a href="{{ url_for('home') }}">Recipes</a></li>
                     <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
                     <li><a href="{{ url_for('categories') }}">Categories</a></li>
+
+
                 </ul>
             </div>
         </nav>
 
         <!-- mobile navbar-->
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="{{ url_for('home') }}">Recipes</a></li><br>
-            <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li><br>
+            <li><a href="{{ url_for('home') }}">Recipes</a><br></li>
+            <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a><br></li>
             <li><a href="{{ url_for('categories') }}">Categories</a></li>
+
 
         </ul>
     </header>
-
 
 
     <main class="container">
@@ -51,9 +52,9 @@
         {% block content %}
         {% endblock %}
     </main>
-  
 
-<!--footer-->
+
+    <!--footer-->
     <footer class="orange darken-4">
         <div class="footer-text">
             <div class="container">
@@ -63,13 +64,11 @@
                     </i></a>
                 <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram small">
                     </i></a>
-                <a class="green-darken-4 right" href="https://www.greenpan.co.uk" target="_blank">Proud to
-                    promote GreenPan.co.uk</a>
+
             </div>
         </div>
 
     </footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>

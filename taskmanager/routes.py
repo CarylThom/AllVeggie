@@ -1,12 +1,13 @@
 from flask import render_template, request, redirect, url_for
+from werkzeug.security import generate_password_hash, check_password_hash
 from taskmanager import app, db
 from taskmanager.models import Category, Recipe
 
 
 @app.route("/")
 def home():
-     recipes = list(Recipe.query.order_by(Recipe.id).all())
-     return render_template("recipes.html", recipes=recipes)
+    recipes = list(Recipe.query.order_by(Recipe.id).all())
+    return render_template("recipes.html", recipes=recipes)
 
 
 @app.route("/categories")
@@ -57,21 +58,22 @@ def add_recipe():
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("home"))
-    return render_template("add_recipe.html", categories=categories) 
-    
+    return render_template("add_recipe.html", categories=categories)
+
 
 @app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     recipe = Recipe.query.get_or_404(recipe_id)
     categories = list(Category.query.order_by(Category.category_name).all())
     if request.method == "POST":
-        recipe_name=request.form.get("recipe_name"),
-        recipe_ingredients=request.form.get("recipe_ingredients"),
-        recipe_method=request.form.get("recipe_method"),
-        is_vegan=bool(True if request.form.get("is_vegan") else False),
-        category_id=request.form.get("category_id")
+        recipe.recipe_name = request.form.get("recipe_name")
+        recipe.recipe_ingredients = request.form.get("recipe_ingredients")
+        recipe.recipe_method = request.form.get("recipe_method")
+        recipe.is_vegan = bool(True if request.form.get("is_vegan") else False)
+        recipe.category_id = request.form.get("category_id")
         db.session.commit()
-    return render_template("edit_recipe.html", recipe=recipe, categories=categories)
+    return render_template(
+        "edit_recipe.html", recipe=recipe, categories=categories)
 
 
 @app.route("/delete_recipe/<int:recipe_id>")

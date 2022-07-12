@@ -50,7 +50,7 @@ Development
 
 * The imagery included are - 
 ## Wireframes
-![image](https://user-images.githubusercontent.com/95102264/177036116-c4887315-f8f7-48c6-b70c-0e8bed4d1542.png)
+![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
 
 * The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around vegetarian and sustainable cooking. 
@@ -96,18 +96,20 @@ Development
 
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/CarylThom/), navigate to the Settings tab 
-  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
-  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found [here](https://carylthom.github.io//)
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch, then click "Save".
+The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here
 
-### Local Deployment
-
+Local Deployment
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/CarylThom/`
+git clone https://github.com/CarylThom/allveggie.git
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+Open in Gitpod
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
@@ -117,11 +119,13 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Acknowledgements
 
-* Reviewing/revisiting lessons from the relevant sections of the course via Code Institute. 
-
 * Mentor Tim Nelson at Code Institute
 
+* Reviewing/revisiting lessons from the relevant sections of the course via Code Institute. 
+
 * Tutors and student support at Code Institute
+
+* Slack
 
 * Stack Overflow [http://www.stackoverflow.com]
 
@@ -129,8 +133,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Content
 
-* All content was written by the developer.
+* All content was written by the developer except for recipes.
+* Recipes were found at [https://www.bbcgoodfood.com/] and [https://vegsoc.org/] 
 
 ### Media
 
-* Image(s) were found on 
+* Image(s) were found on [https://www.freepik.com/]
