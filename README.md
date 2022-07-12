@@ -44,11 +44,14 @@ Development
 
 ### Typography
 
-* 
+* There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson) as they provide the appearance of the site/recipes being hand written  
 
 ### Imagery
 
 * The imagery included are - 
+* Background - 
+* Forms & recipes background - 
+* Mobile sidenav background - 
 ## Wireframes
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
@@ -139,3 +142,5 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 ### Media
 
 * Image(s) were found on [https://www.freepik.com/]
+
+*  The image(s) are attributed to: Background image by ?, forms & recipes background ?, sidenav background ? . Favicon image by freepik
