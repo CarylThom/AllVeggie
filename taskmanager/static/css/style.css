@@ -5,7 +5,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url("https://img.freepik.com/free-photo/food-with-ingredients_1220-4884.jpg");
+    background-image: url("https://images.unsplash.com/photo-1623428187425-873f16e10554");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ main {
 }
 
 .collapsible-body {
-    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg?size=626&ext=jpg&ga=GA1.2.302614820.1657360069");
+    background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ main {
 }
 /*edit_categotries*/
 .card-panel {
-    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg");
+    background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg");
    
 }
 
@@ -107,7 +107,7 @@ main {
 }
 /*categories box*/
 .box {
-    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-63489.jpg");
+    background-image: url("https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg");
 }
 /*categories box text*/
 .card-title {
