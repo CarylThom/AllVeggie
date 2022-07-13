@@ -28,10 +28,12 @@ Development
 
 ## CRUD Functionality
 
-* Create - 
-* Read - 
-* Update -
-* Delete - 
+* Full CRUD functionality is demonstrated within the site
+
+* Create - Users can create a new record within the database by adding new recipes and new categories.
+* Read - Users can read the  information form the database when they click on the relevant sections.
+* Update - Users can edit or update the categories and recipes.
+* Delete - Users can delete the categories and recipes.
 ## Design
 
 ### General design
@@ -150,6 +152,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 * All content was written by the developer except for recipes.
 * Recipes were found at [https://www.bbcgoodfood.com/] and [https://vegsoc.org/] 
+
+### Future Additions
+
+* 
 
 
 

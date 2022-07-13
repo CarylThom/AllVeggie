@@ -6,7 +6,7 @@ from taskmanager import db
 class Category(db.Model):
     # Category model
     id = db.Column(db.Integer, primary_key=True)
-    category_name = db.Column(db.String(25), unique=True, nullable=False)
+    category_name = db.Column(db.String(50), unique=True, nullable=False)
     recipes = db.relationship(
         "Recipe", backref="category", cascade="all, delete", lazy=True)
 

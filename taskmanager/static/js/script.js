@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+  // modal initialization
   let modal = document.querySelectorAll('.modal');
   M.Modal.init(modal);
 
