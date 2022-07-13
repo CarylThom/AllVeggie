@@ -40,7 +40,15 @@ Development
 
 ### Colour Scheme
 
-* Ornage, Green, White with default background color of Slate #413434; 
+* The colours used within this site are  - 
+  Ornage - #e65100 (header, footer & buttons)
+  Green - rgb(5, 49, 5) (main internal colour) 
+  Green - #c8e6c9 (card panels background)
+  Green - #1b5e20 (icons)
+  White - #ffffff (text and hover text)
+  Slate - #413434 (background)
+  Black-#1e1c25 (sidenav background)
+
 
 ### Typography
 
