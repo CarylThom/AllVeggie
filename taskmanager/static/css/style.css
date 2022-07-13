@@ -95,9 +95,10 @@ main {
 .footer-text a:hover {
     color:  #fafafa;
 
-}.footer-text li {
+}.footer-text {
     display: inline;
     text-align: center;
+    letter-spacing: 25px;
 }
 
 
