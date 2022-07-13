@@ -32,7 +32,7 @@ main {
 .site-logo {
     font-family: 'Dancing Script';
     color: rgb(5, 49, 5);
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-left: 3%;
 
 }
@@ -161,7 +161,9 @@ main {
 .modal-footer {
     background-image: url('https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg');
 }
-
+.modal-content {
+    text-align: center;
+}
 
 			
   

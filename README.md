@@ -58,7 +58,7 @@ Development
 
 * The imagery included are - 
 * Background - ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png) Sonny Mauricio at [https://www.unsplash.com]
-* Forms & recipes background - ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png) Kues1 at [https://www.freepik.com/]
+* Forms, modal & recipes background - ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png) Kues1 at [https://www.freepik.com/]
 * Mobile sidenav background - ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png) timolina at [https://www.freepik.com/]
 * Favicon  - ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png) at [https://www.flaticon.com/]
 
@@ -92,7 +92,7 @@ Development
 
 * Pencil: Pencil was used to create the wireframe.
 
-* Materialize: Materialize was used as an additional design library.
+* Materialize: Materialize was used as an additional design library. [https://materializecss.com/]
 
 ## Testing
 
