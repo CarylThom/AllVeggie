@@ -54,7 +54,7 @@ Development
 
 * There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson) as they provide the appearance of the site/recipes being hand written. 
 
-### Imagery
+### Imagery 
 
 * The imagery included are - 
 * Background - ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png) Sonny Mauricio at [https://www.unsplash.com]
@@ -66,7 +66,7 @@ Development
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
 
-* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around vegetarian and sustainable cooking. 
+* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking. 
 
 ## Features
  

@@ -32,7 +32,7 @@ main {
 .site-logo {
     font-family: 'Dancing Script';
     color: rgb(5, 49, 5);
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-left: 3%;
 
 }
@@ -62,6 +62,7 @@ main {
 /*collapsible boxes/cards*/
 .collapsible {
     border-radius: 10px;
+    
 }
 
 .collapsible-header {
@@ -156,8 +157,10 @@ main {
     color: rgb(5, 49, 5);
 
 }
-
-
+/*modal*/
+.modal-footer {
+    background-image: url('https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg');
+}
 
 
 			
