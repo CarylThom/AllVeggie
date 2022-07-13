@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="header-text white-text center-align">Our Recipes!</h3>
+<h3 class="header-text white-text center-align">Recipes!</h3>
+<p class="text white-text" span style="background-color:rgb(5, 49, 5);">Are you ready to go AllVeggie?<br>
+Take a look at our listed recipes below and see what takes your fancy...Or just add your own!</p></span>
 
 <div class="row">
     <div class="col s12 center-align">
-        <a href="{{ url_for('add_recipe') }}" class="waves-effect waves-light btn green darken-4">
+        <a href="{{ url_for('add_recipe') }}" class="waves-effect waves-light btn orange">
             Add Your Own Recipe <i class="fas fa-plus right"></i>
         </a>
     </div>

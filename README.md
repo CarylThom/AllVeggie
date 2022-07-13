@@ -36,15 +36,15 @@ Development
 
 ### General design
 
-*  
+* The site has a colourful rustic style.  
 
 ### Colour Scheme
 
-* 
+* Ornage, Green, White with default background color of Slate #413434; 
 
 ### Typography
 
-* There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson) as they provide the appearance of the site/recipes being hand written  
+* There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson) as they provide the appearance of the site/recipes being hand written. 
 
 ### Imagery
 
