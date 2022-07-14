@@ -1,3 +1,7 @@
+
+![image](https://user-images.githubusercontent.com/95102264/179087417-06878560-eb5b-465f-b0a3-b062c1b82dec.png)
+
+
 ## Title
 AllVeggie
 
@@ -16,7 +20,7 @@ Development
 
 * As a First Time Visitor - I would like to visit a site that is easy to understand and specialises in my dietary choices = The site is specifically vegetarian recipes and the navigation and search options make the site easy to navigate.
 
-* As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse or search through the recipes available.
+* As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse through the recipes available.
 
 * As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need recipe assistance.
 
@@ -38,7 +42,7 @@ Development
 
 ### General design
 
-* The site has a colourful rustic style.  
+* The site has a colourful rustic style, is easy to navigate and understand.  
 
 ### Colour Scheme
 
@@ -58,21 +62,19 @@ Development
 
 ### Imagery 
 
-* The imagery included are - 
+* ## Background image by Sonny Mauricio at [https://www.unsplash.com] ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png)
 
-* Background by Sonny Mauricio at [https://www.unsplash.com] ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png)
+* ## Forms, modal & recipes background by Kues1 at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png)
 
-* Forms, modal & recipes background by Kues1 at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png)
+* ## Mobile sidenav background by timolina at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png)
 
-* Mobile sidenav background by timolina at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png)
-
-* Favicon at [https://www.flaticon.com/] ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png)
+* ## Favicon at [https://www.flaticon.com/] ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png)
 
 ## Wireframes
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
 
-* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking. 
+* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking.
 
 ## Features
  
@@ -94,7 +96,7 @@ Development
 
 * GitHub: GitHub is used to store the project code after being pushed from Git. 
 
-* [www.Responsivedesignchecker.com]
+* [https://www.Responsivedesignchecker.com]
 
 * Pencil: Pencil was used to create the wireframe.
 
