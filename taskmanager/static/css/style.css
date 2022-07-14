@@ -154,7 +154,7 @@ main {
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
-    color: rgb(5, 49, 5);
+    
 
 }
 /*modal*/
@@ -164,6 +164,21 @@ main {
 .modal-content {
     text-align: center;
 }
+/*already registerd text*/
+.text1 {
+    font-family: 'Edu TAS Beginner';
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 90%;
+    color:rgb(5, 49, 5);
+    font-weight: 700;
+}
+
+.text1 a:hover {
+    color: rgb(226, 75, 19) !important;
+}
+
 
 			
   
