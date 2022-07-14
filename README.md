@@ -43,26 +43,30 @@ Development
 ### Colour Scheme
 
 * The colours used within this site are  - 
-  Ornage - #e65100 (header, footer & buttons)
-  Green - rgb(5, 49, 5) (main internal colour) 
-  Green - #c8e6c9 (card panels background)
-  Green - #1b5e20 (icons)
-  White - #ffffff (text and hover text)
-  Slate - #413434 (background)
-  Black-#1e1c25 (sidenav background)
+  Orange - #e65100 (header, footer & buttons). 
+  Green - rgb(5, 49, 5) (main internal colour).  
+  Green - #c8e6c9 (card panels background).
+  Green - #1b5e20 (icons).
+  White - #ffffff (text and hover text). 
+  Slate - #413434 (background).
+  Black-#1e1c25 (sidenav background). 
 
 
 ### Typography
 
-* There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson) as they provide the appearance of the site/recipes being hand written. 
+* There are two fonts used for this site 'Dancing Script' (Designed by Impallari Type) and 'Edu TAS Beginner' (Designed by Tina Anderson, Corey Anderson). Both of these fonts provide the appearance of the site/recipes being hand written. 
 
 ### Imagery 
 
 * The imagery included are - 
-* Background - ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png) Sonny Mauricio at [https://www.unsplash.com]
-* Forms, modal & recipes background - ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png) Kues1 at [https://www.freepik.com/]
-* Mobile sidenav background - ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png) timolina at [https://www.freepik.com/]
-* Favicon  - ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png) at [https://www.flaticon.com/]
+
+* Background by Sonny Mauricio at [https://www.unsplash.com] ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png)
+
+* Forms, modal & recipes background by Kues1 at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png)
+
+* Mobile sidenav background by timolina at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png)
+
+* Favicon at [https://www.flaticon.com/] ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png)
 
 ## Wireframes
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
@@ -131,6 +135,12 @@ Open in Gitpod
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/)
+
+## Deployment to Heroku
+
+The site was deployed to Heroku. The steps to deploy are as follows:
+
+
 
 ## Credits
 
