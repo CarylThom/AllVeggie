@@ -54,6 +54,7 @@ def add_recipe():
             recipe_method=request.form.get("recipe_method"),
             is_vegan=bool(True if request.form.get("is_vegan") else False),
             category_id=request.form.get("category_id")
+            
         )
         db.session.add(recipe)
         db.session.commit()
@@ -69,8 +70,8 @@ def edit_recipe(recipe_id):
         recipe.recipe_name = request.form.get("recipe_name")
         recipe.recipe_ingredients = request.form.get("recipe_ingredients")
         recipe.recipe_method = request.form.get("recipe_method")
-        recipe.is_vegan = bool(True if request.form.get("is_vegan") else False)
-        recipe.category_id = request.form.get("category_id")
+        recipe.category_id = request.form.get("category_id"),
+        
         db.session.commit()
     return render_template(
         "edit_recipe.html", recipe=recipe, categories=categories)

@@ -50,8 +50,8 @@
         <!-- mobile navbar-->
         <ul class="sidenav" id="mobile-demo">
             {% if session.user %}
-            <li><a href="{{ url_for('home') }}">Recipes</a><br></li>
-            <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a><br></li>
+            <li><a href="{{ url_for('home') }}">Recipes</a></li>
+            <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
             <li><a href="{{ url_for('categories') }}">Categories</a><br></li>
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a><br></li>
            
