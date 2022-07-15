@@ -187,7 +187,9 @@ main {
 
 /*flash message*/
 .flash {
-    font-family: 'Dancing Script';
+    font-family: 'Edu TAS Beginner';
+    background-color: rgb(5, 49, 5);
+    opacity: 80%;
 }
 
 
