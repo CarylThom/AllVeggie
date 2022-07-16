@@ -121,26 +121,42 @@ Development
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Main Branch, then click "Save".
-The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here
+- In the [GitHub repository](https://github.com/CarylThom/allveggie) navigate to the Settings tab
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- The live link can be found [here](https://carylthom.github.io/allveggie/)
 
 Local Deployment
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+- `git clone https://github.com/CarylThom/allveggie.git`
 
-git clone https://github.com/CarylThom/allveggie.git
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
 Open in Gitpod
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CarylThom/allveggie)
 
 ## Deployment to Heroku
 
 The site was deployed to Heroku. The steps to deploy are as follows:
+
+- Within Gitpod terminal - Create requirements.txt file (pip3 requirements.txt). Move the required packages to requirements.txt (pip3 freeze --local - > requirements.txt).
+- Create Procfile to run the app (echo web:python run.py > Procfile).
+- Push both files (requirements.txt & Procfile) to github repository.
+
+- https://heroku.com/ , select 'New App', name and 'Create App'.
+- In 'recources' tab underneath "add-ons" section, Search for 'Heroku Postgres' and install.
+- In 'Settings' tab find 'Config Vars section, set variables for DATABASE_URL, IP, PORT, SECRET_KEY & DEBUG.
+- Deploy from GitHub repository, 'Connect', 'Enable Automatic Deploys' and 'Deploy Branch'.
+- Add correct file path to DATABASE_URI in __init__.py file.
+- To create tables in our database, select 'More', 'Run Console'.
+- Within console type 'python3, 'from taskmanager import db' and 'db.create_all()'.
+- 'Open App' to view [https://allveggie.herokuapp.com/]. 
+
+
 
 
 
