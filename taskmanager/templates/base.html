@@ -32,20 +32,20 @@
                     <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
                     <li><a href="{{ url_for('categories') }}">Categories</a></li>
                     <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-                    
+
                     {% if session.user|lower == "admin"|lower %}
-                        <li><a href="{{ url_for('categories') }}">Manage Categories</a></li>
+                    <li><a href="{{ url_for('categories') }}">Manage Categories</a></li>
                     {% endif %}
                     <li><a href="{{ url_for('logout') }}">Log Out</a></li>
-                {% else %}
+                    {% else %}
                     <li><a href="{{ url_for('login') }}">Log In</a></li>
                     <li><a href="{{ url_for('register') }}">Register</a></li>
-                {% endif %}
-            </ul>
-        </div>
-    </nav>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
 
-       
+
 
         <!-- mobile navbar-->
         <ul class="sidenav" id="mobile-demo">
@@ -54,30 +54,30 @@
             <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
             <li><a href="{{ url_for('categories') }}">Categories</a><br></li>
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a><br></li>
-           
+
             {% if session.user|lower == "admin"|lower %}
-                <li><a href="{{ url_for('categories') }}">Manage Categories</a><br><br></li>
+            <li><a href="{{ url_for('categories') }}">Manage Categories</a><br><br></li>
             {% endif %}
             <li><a href="{{ url_for('logout') }}">Log Out</a><br></li>
-        {% else %}
+            {% else %}
             <li><a href="{{ url_for('login') }}">Log In</a><br></li>
             <li><a href="{{ url_for('register') }}">Register</a></li>
-        {% endif %}
-    </ul>
-</header>
+            {% endif %}
+        </ul>
+    </header>
 
-<section>
-    <!-- flash messages -->
-    {% with messages = get_flashed_messages() %}
+    <section>
+        <!-- flash messages -->
+        {% with messages = get_flashed_messages() %}
         {% if messages %}
-            {% for message in messages %}
-                <div class="row flashes">
-                    <h4 class="flash white-text center-align">{{ message }}</h4>
-                </div>
-            {% endfor %}
+        {% for message in messages %}
+        <div class="row flashes">
+            <h4 class="flash white-text center-align">{{ message }}</h4>
+        </div>
+        {% endfor %}
         {% endif %}
-    {% endwith %}
-</section>
+        {% endwith %}
+    </section>
 
 
 

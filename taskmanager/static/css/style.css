@@ -11,7 +11,7 @@ body {
     background-size: cover;
     position: relative;
     background-color: #413434;
-    height: 100hv;
+
 
 
 
@@ -26,11 +26,11 @@ main {
     font-family: 'Dancing Script';
     font-size: 5rem;
     font-weight: 400;
-    color:rgb(5, 49, 5);
+    color: rgb(5, 49, 5);
 
 }
 
-.home-text  {
+.home-text {
     font-family: 'Edu TAS Beginner';
     border-radius: 10px;
     font-size: 2rem;
@@ -71,7 +71,7 @@ main {
 /*collapsible boxes/cards*/
 .collapsible {
     border-radius: 10px;
-    
+
 }
 
 .collapsible-header {
@@ -163,16 +163,19 @@ main {
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
-    
+
 
 }
+
 /*modal*/
 .modal-footer {
     background-image: url('https://img.freepik.com/free-photo/white-paper-texture_1194-5416.jpg');
 }
+
 .modal-content {
     text-align: center;
 }
+
 /*already registerd & login text*/
 .text1 {
     font-family: 'Edu TAS Beginner';
@@ -180,7 +183,7 @@ main {
     font-size: 1.5rem;
     text-align: center;
     opacity: 90%;
-    color:rgb(5, 49, 5);
+    color: rgb(5, 49, 5);
     font-weight: 700;
 }
 
@@ -189,7 +192,7 @@ main {
 }
 
 .profile-header {
-    color:rgb(5, 49, 5);
+    color: rgb(5, 49, 5);
     font-family: 'Edu TAS Beginner';
 }
 
@@ -199,15 +202,3 @@ main {
     background-color: rgb(5, 49, 5);
     opacity: 80%;
 }
-
-
-
-
-			
-  
-
-
-
-
-
-

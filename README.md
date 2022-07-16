@@ -108,9 +108,9 @@ Development
 
 * Lighthouse test report: Lighthouse test for desktop 
 
-* W3C Markup Validator report: 
+* W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. ![image](https://user-images.githubusercontent.com/95102264/179354173-38a2867b-72b4-482e-b73b-0d1a11494069.png)
 
-* W3C CSS Validator report:
+* W3C CSS Validator report: No errors were found within the CSS code. ![image](https://user-images.githubusercontent.com/95102264/179354388-d5c0a6b4-3e52-48cc-9529-2a7684eacc80.png)
 
 
 * Javascript Validator report: [https://beautifytools.com/javascript-validator.php] 
