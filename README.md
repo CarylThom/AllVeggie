@@ -2,40 +2,37 @@
 ![image](https://user-images.githubusercontent.com/95102264/179087417-06878560-eb5b-465f-b0a3-b062c1b82dec.png)
 
 
-## Title
-AllVeggie
+# Title
 
-Milestone Project 3
+## AllVeggie
 
-Python and Data Centric
-Development
-
+Milestone Project 3 Python and Data Centric Development
 ## Description
 
-* AllVeggie is a site dedicated to vegetarian cooking. A place where recipes can be found or added by members who join the site.
+* AllVeggie is a site dedicated to vegetarian cooking. A place where recipes can be found, added, edited or deleted by like-minded members who join the site.
 
  ## User Experience (UX)
 
 ### First Time Visitor Goals
 
-* As a First Time Visitor - I would like to visit a site that is easy to understand and specialises in my dietary choices = The site is specifically vegetarian recipes and the navigation and search options make the site easy to navigate.
+* As a First Time Visitor - I would like to visit a site that is easy to understand and specialises in my dietary choices = The site is specifically vegetarian recipes and the navigation options make the site easy to browse.
 
 * As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse through the recipes available.
 
-* As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need recipe assistance.
+* As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need or have recipe ideas.
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = Social media links to keep the user connected to others.
-* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to enjoy = The option to add, remove or edit your own recipes.
+* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links  to keep the user(s) connected to others.
+* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to enjoy = There is the option to add, remove or edit your own recipes.
 * As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site.
 
 ## CRUD Functionality
 
 * Full CRUD functionality is demonstrated within the site
 
-* Create - Users can create a new record within the database by adding new recipes and new categories.
-* Read - Users can read the  information form the database when they click on the relevant sections.
+* ![image](https://user-images.githubusercontent.com/95102264/179403728-9fefa31e-36a5-4bea-afd6-056b4d690e39.png)   Create - Users can create a new record within the database by adding new recipes and new categories.
+* Read - Users can read the information from the database when they click on the relevant sections.
 * Update - Users can edit or update the categories and recipes.
 * Delete - Users can delete the categories and recipes.
 ## Design
@@ -62,13 +59,13 @@ Development
 
 ### Imagery 
 
-* ## Background image by Sonny Mauricio at [https://www.unsplash.com] ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png)
+* ![image](https://user-images.githubusercontent.com/95102264/178728436-3dea4313-6a27-41eb-8bb7-bfba00bbd176.png) Main background image.
 
-* ## Forms, modal & recipes background by Kues1 at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png)
+* ![image](https://user-images.githubusercontent.com/95102264/178728093-efa99dca-6051-4c61-a8a3-f42a24002478.png) Forms, modals & recipe background
 
-* ## Mobile sidenav background by timolina at [https://www.freepik.com/] ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png)
+* ![image](https://user-images.githubusercontent.com/95102264/178727694-d0f023fb-6395-43c2-ba14-7b76348f2a47.png) Mobile sidenav.
 
-* ## Favicon at [https://www.flaticon.com/] ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png)
+* ![image](https://user-images.githubusercontent.com/95102264/178729425-583008ea-8ada-4fe0-aa61-dcc6be341630.png) Favicon icon.
 
 ## Wireframes
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
@@ -104,16 +101,12 @@ Development
 
 ## Testing
 
-* Lighthouse test report: Lighthouse test for mobile  
-
-* Lighthouse test report: Lighthouse test for desktop 
-
 * W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. ![image](https://user-images.githubusercontent.com/95102264/179354173-38a2867b-72b4-482e-b73b-0d1a11494069.png)
 
 * W3C CSS Validator report: No errors were found within the CSS code. ![image](https://user-images.githubusercontent.com/95102264/179354388-d5c0a6b4-3e52-48cc-9529-2a7684eacc80.png)
 
 
-* Javascript Validator report:[https://beautifytools.com/javascript-validator.php]  - No errors found within javascript code ![image](https://user-images.githubusercontent.com/95102264/179363194-728bfbfa-b1de-4a70-9bd7-9237c4aca416.png)
+* Javascript Validator report: Using [https://beautifytools.com/javascript-validator.php]  - No errors found within javascript code ![image](https://user-images.githubusercontent.com/95102264/179363194-728bfbfa-b1de-4a70-9bd7-9237c4aca416.png)
 
 * Python test report: Using [https://extendsclass.com/]
 - routes.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364358-f3c36a6d-b53a-4d4b-a59f-d399ad95541f.png)
@@ -121,6 +114,8 @@ Development
 - init.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364518-087a782b-120d-4e08-ba6a-94fd926ac850.png)
 - app.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364597-23c87f18-8a29-4849-bd26-58436fd8dde9.png)
 - env.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364629-d3de1edb-3f9b-4f43-8f80-57eec692d067.png)
+
+* Lighthouse test report: ![image](https://user-images.githubusercontent.com/95102264/179394724-12d0504c-7f59-494c-822f-7863f0d65f6c.png)
 
 ## Deployment
 
@@ -186,9 +181,14 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * All content was written by the developer except for recipes.
 * Recipes were found at [https://www.bbcgoodfood.com/] and [https://vegsoc.org/] 
 
-### Future Additions
+### Media
 
-* 
+* Images attributed to: 
+* Background image by Sonny Mauricio at [https://www.unsplash.com]
+* Forms, modal & recipes background by Kues1 at [https://www.freepik.com/]
+* Mobile sidenav background by timolina at [https://www.freepik.com/]
+* Favicon at [https://www.flaticon.com/] 
+                
 
 
 
