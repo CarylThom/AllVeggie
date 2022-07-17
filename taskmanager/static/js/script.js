@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  // modal initialization
-  let modal = document.querySelectorAll('.modal');
-  M.Modal.init(modal);
-
   // sidenav initialization
   let sidenav = document.querySelectorAll(".sidenav");
   M.Sidenav.init(sidenav);
@@ -15,4 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // collapsible initializataion
   let collapsibles = document.querySelectorAll(".collapsible");
   M.Collapsible.init(collapsibles);
+
+  // modal initialization
+  let modal = document.querySelectorAll('.modal');
+  M.Modal.init(modal);
 });

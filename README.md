@@ -31,10 +31,10 @@ Milestone Project 3 Python and Data Centric Development
 
 * Full CRUD functionality is demonstrated within the site
 
-* ![image](https://user-images.githubusercontent.com/95102264/179403728-9fefa31e-36a5-4bea-afd6-056b4d690e39.png)   Create - Users can create a new record within the database by adding new recipes and new categories.
-* Read - Users can read the information from the database when they click on the relevant sections.
-* Update - Users can edit or update the categories and recipes.
-* Delete - Users can delete the categories and recipes.
+* ![image](https://user-images.githubusercontent.com/95102264/179403728-9fefa31e-36a5-4bea-afd6-056b4d690e39.png)   Create - Users and/or owner can create a new record within the database by adding new recipes and new categories.
+* ![image](https://user-images.githubusercontent.com/95102264/179411480-8bf32aa4-ffe3-4eb0-a791-dd306664ad03.png)Read - Users and/or owner can then read the information from the database when they click on the relevant sections.
+* ![image](https://user-images.githubusercontent.com/95102264/179411571-adbb1d23-bfd9-408e-a301-81b7520579d5.png)Update - Users and/or owner can also edit or update the categories and recipes.
+* ![image](https://user-images.githubusercontent.com/95102264/179412546-06a2d81b-2ccb-43f6-b3c9-d79420ab8e7a.png)Delete - Users and/or owner can also delete the categories and recipes.
 ## Design
 
 ### General design

@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&display=swap');
 
 
-.body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url("https://images.unsplash.com/photo-1623428187425-873f16e10554");
+    background-image: url('https://images.unsplash.com/photo-1623428187425-873f16e10554');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color: #413434;
-  
-
+    background-color: #413434
 }
-
 
 main {
     flex: 1 0 auto;
@@ -112,6 +109,7 @@ main {
     display: inline;
     text-align: center;
     letter-spacing: 25px;
+
 }
 
 
