@@ -17,15 +17,15 @@ Milestone Project 3 Python and Data Centric Development
 
 * As a First Time Visitor - I would like to visit a site that is easy to understand and specialises in my dietary choices = The site is specifically vegetarian recipes and the navigation options make the site easy to browse.
 
-* As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse through the recipes available.
+* As a First Time Visitor - I would like to visit this site to see the vegetarian recipe ideas available = Browse through the recipes that have been added by users to our database.
 
-* As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need or have recipe ideas.
+* As a First Time Visitor – I would like to access the recipes to help guide me when I'm cooking = Site is available on all devices when you need recipe ideas.
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links  to keep the user(s) connected to others.
-* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to enjoy = There is the option to add, remove or edit your own recipes.
-* As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site.
+* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing further ideas, stories and images.
+* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to try = There is the option to add, remove or edit your own recipes.
+* As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site by owner and users
 
 ## CRUD Functionality
 
@@ -46,7 +46,7 @@ Milestone Project 3 Python and Data Centric Development
 * The colours used within this site are  - 
   Orange - #e65100 (header, footer & buttons). 
   Green - rgb(5, 49, 5) (main internal colour).  
-  Green - #c8e6c9 (card panels background).
+  Green - #c8e6c9 (card panel background).
   Green - #1b5e20 (icons).
   White - #ffffff (text and hover text). 
   Slate - #413434 (background).
@@ -71,11 +71,9 @@ Milestone Project 3 Python and Data Centric Development
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
 
-* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking.
+* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking. 
 
-## Features
- 
-## Languages Used
+ ## Languages Used
 
 * HTML5 - [https://en.wikipedia.org/wiki/HTML5]
 * CSS3 - [https://en.wikipedia.org/wiki/CSS#CSS_3]
@@ -148,16 +146,13 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 - Push both files (requirements.txt & Procfile) to github repository.
 
 - https://heroku.com/ , select 'New App', name and 'Create App'.
-- In 'recources' tab underneath "add-ons" section, Search for 'Heroku Postgres' and install.
+- In 'resources' tab underneath "add-ons" section, Search for 'Heroku Postgres' and install.
 - In 'Settings' tab find 'Config Vars section, set variables for DATABASE_URL, IP, PORT, SECRET_KEY & DEBUG.
 - Deploy from GitHub repository, 'Connect', 'Enable Automatic Deploys' and 'Deploy Branch'.
 - Add correct file path to DATABASE_URI in __init__.py file.
 - To create tables in our database, select 'More', 'Run Console'.
 - Within console type 'python3, 'from taskmanager import db' and 'db.create_all()'.
 - 'Open App' to view [https://allveggie.herokuapp.com/]. 
-
-
-
 
 
 ## Credits
@@ -188,8 +183,8 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Forms, modal & recipes background by Kues1 at [https://www.freepik.com/]
 * Mobile sidenav background by timolina at [https://www.freepik.com/]
 * Favicon at [https://www.flaticon.com/] 
-                
 
+### Future features
 
-
-
+* With further development just some of the future features of this site would ideally be a search function for recipes to be found by keyword. It would also have a more personal profile page for users where images and messages could be shared.     
+            

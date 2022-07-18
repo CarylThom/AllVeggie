@@ -2,7 +2,7 @@ from taskmanager import db
 
 
 class Users(db.Model):
-            # schema for the users model
+    # users model
     id = db.Column(db.Integer, primary_key=True)
     user_name = db.Column(db.String(50), unique=True, nullable=False)
     password = db.Column(db.String(260), nullable=False)
@@ -10,7 +10,6 @@ class Users(db.Model):
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return self.user_name
-
 
 
 class Category(db.Model):
@@ -24,6 +23,7 @@ class Category(db.Model):
         # __repr__ to represent itself in the form of a string
         return self.category_name
 
+
 class Recipe(db.Model):
     #  Recipe model
     id = db.Column(db.Integer, primary_key=True)
@@ -32,8 +32,8 @@ class Recipe(db.Model):
     recipe_method = db.Column(db.Text, nullable=False)
     is_vegan = db.Column(db.Boolean, default=False, nullable=False)
     category_id = db.Column(db.Integer, db.ForeignKey(
-        "category.id", ondelete="CASCADE"), nullable="False")   
-    
+        "category.id", ondelete="CASCADE"), nullable="False")
+
     def __repr__(self):
         # __repr__ to represent itself in the form of a string
         return "#{0} - Recipe: {1} | Urgent: {2}".format(

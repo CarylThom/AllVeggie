@@ -54,7 +54,7 @@ def add_recipe():
             recipe_method=request.form.get("recipe_method"),
             is_vegan=bool(True if request.form.get("is_vegan") else False),
             category_id=request.form.get("category_id")
-            
+
         )
         db.session.add(recipe)
         db.session.commit()
@@ -71,7 +71,7 @@ def edit_recipe(recipe_id):
         recipe.recipe_ingredients = request.form.get("recipe_ingredients")
         recipe.recipe_method = request.form.get("recipe_method")
         recipe.category_id = request.form.get("category_id"),
-        
+
         db.session.commit()
     return render_template(
         "edit_recipe.html", recipe=recipe, categories=categories)
@@ -88,23 +88,23 @@ def delete_recipe(recipe_id):
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        # check if username already exists in db
-        existing_user = Users.query.filter(Users.user_name == \
+        # check if username already exists in the database
+        existing_user = Users.query.filter(Users.user_name ==
                                            request.form.get("username").lower()).all()
-        
+
         if existing_user:
             flash("Username already exists")
             return redirect(url_for("register"))
-        
+
         user = Users(
             user_name=request.form.get("username").lower(),
             password=generate_password_hash(request.form.get("password"))
         )
-        
+
         db.session.add(user)
         db.session.commit()
 
-        # put the new user into 'session' cookie
+        # put the new user into session cookie
         session["user"] = request.form.get("username").lower()
         flash("Registration Successful!")
         return redirect(url_for("profile", username=session["user"]))
@@ -116,26 +116,26 @@ def register():
 def login():
     if request.method == "POST":
         # check if username exists in db
-        existing_user = Users.query.filter(Users.user_name == \
+        existing_user = Users.query.filter(Users.user_name ==
                                            request.form.get("username").lower()).all()
 
         if existing_user:
             print(request.form.get("username"))
-            # ensure hashed password matches user input
+            # make sure password matches input
             if check_password_hash(
                     existing_user[0].password, request.form.get("password")):
-                        session["user"] = request.form.get("username").lower()
-                        flash("Welcome, {}".format(
-                            request.form.get("username")))
-                        return redirect(url_for(
-                            "profile", username=session["user"]))
+                session["user"] = request.form.get("username").lower()
+                flash("Welcome, {}".format(
+                    request.form.get("username")))
+                return redirect(url_for(
+                    "profile", username=session["user"]))
             else:
-                # invalid password match
+                # password does not match
                 flash("Incorrect Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
-            # username doesn't exist
+            # username does not exist
             flash("Incorrect Username and/or Password")
             return redirect(url_for("login"))
 
@@ -144,7 +144,7 @@ def login():
 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
-        
+
     if "user" in session:
         return render_template("profile.html", username=session["user"])
 
