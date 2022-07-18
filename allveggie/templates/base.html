@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+
+    <title>AllVeggie</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3637/3637856.png">
+</head>
+
+<body>
+
+
+    <header>
+        <!-- header navbar -->
+        <nav class="orange darken-3">
+            <div class="nav-wrapper">
+                <a href="{{ url_for('home') }}" class="site-logo">AllVeggie</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                <ul class="links right hide-on-med-and-down">
+                    {% if session.user %}
+                    <li><a href="{{ url_for('home') }}">Recipes</a></li>
+                    <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
+                    <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+                    {% if session.user|lower == "admin"|lower %}
+                        <li><a href="{{ url_for('categories') }}">Manage Categories</a></li>
+                    {% endif %}
+                    <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+                    {% else %}
+                    <li><a href="{{ url_for('login') }}">Log In</a></li>
+                    <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <!-- mobile navbar-->
+        <ul class="sidenav" id="mobile-demo">
+            {% if session.user %}
+            <li><a href="{{ url_for('home') }}">Recipes</a></li>
+            <li><a href="{{ url_for('add_recipe') }}">Add Recipes</a></li>
+            <li><a href="{{ url_for('categories') }}">Categories</a><br></li>
+            <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a><br></li>
+
+            {% if session.user|lower == "admin"|lower %}
+            <li><a href="{{ url_for('categories') }}">Manage Categories</a><br><br></li>
+            {% endif %}
+            <li><a href="{{ url_for('logout') }}">Log Out</a><br></li>
+            {% else %}
+            <li><a href="{{ url_for('login') }}">Log In</a><br></li>
+            <li><a href="{{ url_for('register') }}">Register</a></li>
+            {% endif %}
+        </ul>
+    </header>
+
+    <section>
+        <!-- flash messages -->
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div class="row flashes">
+            <h4 class="flash white-text center-align">{{ message }}</h4>
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </section>
+
+
+
+    <main class="container">
+
+        {% block content %}
+        {% endblock %}
+    </main>
+
+
+    <!--footer-->
+    <footer class=" footer-text orange darken-4">
+        <div class="container">
+
+            <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+            <a href="https://pintrest.co.uk" target="_blank" rel="noopener"><i class="fab fa-pinterest-square"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
