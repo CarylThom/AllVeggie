@@ -147,11 +147,11 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 
 - https://heroku.com/ , select 'New App', name and 'Create App'.
 - In 'resources' tab underneath "add-ons" section, Search for 'Heroku Postgres' and install.
-- In 'Settings' tab find 'Config Vars section, set variables for DATABASE_URL, IP, PORT, SECRET_KEY & DEBUG.
+- In 'Settings' tab find 'Config Vars section, set variables for `DATABASE_URL`, `IP`, `PORT`, `SECRET_KEY` & `DEBUG` (False).
 - Deploy from GitHub repository, 'Connect', 'Enable Automatic Deploys' and 'Deploy Branch'.
-- Add correct file path to DATABASE_URI in __init__.py file.
+- Add correct file path to DATABASE_URI in `__init__.py` file.
 - To create tables in our database, select 'More', 'Run Console'.
-- Within console type 'python3, 'from taskmanager import db' and 'db.create_all()'.
+- Within console type `python3`, `from allveggie import db` and `db.create_all()`.
 - 'Open App' to view [https://allveggie.herokuapp.com/]. 
 
 
