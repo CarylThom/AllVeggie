@@ -23,9 +23,11 @@ Milestone Project 3 Python and Data Centric Development
 
 ### Returning/Frequent Visitor Goals
 
-* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing further ideas, stories and images.
-* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to try = There is the option to add, remove or edit your own recipes.
-* As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site by owner and users
+* As a Returning Visitor – I will enjoy becoming part of the like-minded community set up around this site = There are Social media links to keep users connected by sharing further ideas, stories and images. ![image](https://user-images.githubusercontent.com/95102264/179774200-b9159b03-0410-47e1-a1a0-5baa9d6512b4.png)
+
+* As a Returning Visitor - I will enjoy visiting this site to add my own recipes for others to try = There is the option to add, remove or edit your own recipes. ![image](https://user-images.githubusercontent.com/95102264/179774577-3bd5ee21-a345-491d-8e71-8ad4d15fc01d.png)
+
+* As a Returning Visitor – I will continue to gain cooking inspiration the more I use this site = New recipes will continuously be added to the site by owner and users. ![image](https://user-images.githubusercontent.com/95102264/179774955-bf815cf7-1c5a-4cdc-a407-1feb63c22d09.png)
 
 ## CRUD Functionality
 
@@ -190,6 +192,7 @@ To fork this project go to the top left of the repository, where you see the For
 * Forms, modal & recipes background by Kues1 at [Freepik](https://www.freepik.com/)
 * Mobile sidenav background by timolina at [Freepik](https://www.freepik.com/)
 * Favicon at [Flaticon](https://www.flaticon.com/) 
+
 
 ### Future features
 
