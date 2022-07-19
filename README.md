@@ -39,6 +39,18 @@ Milestone Project 3 Python and Data Centric Development
 * ![image](https://user-images.githubusercontent.com/95102264/179412546-06a2d81b-2ccb-43f6-b3c9-d79420ab8e7a.png)Delete - Users and/or owner can also delete the categories and recipes.
 ## Design
 
+### Features
+
+* The site features a Register and Log in page ![image](https://user-images.githubusercontent.com/95102264/179803779-b237a989-6adb-4687-9b58-e8f08fea4536.png)
+
+* The site features profile pages for registered users where their added recipes can be seen ![image](https://user-images.githubusercontent.com/95102264/179804063-5e114ddf-2a07-4787-b06a-f6dce1e56ad0.png)
+
+* The site has extra features for admin only (where admin can add and remove categories) ![image](https://user-images.githubusercontent.com/95102264/179804577-49a27824-b805-40e1-97f6-c98b69a803e0.png)
+
+* The site has a feature for users and admin to add recipes ![image](https://user-images.githubusercontent.com/95102264/179804997-cb291d84-7aec-43e4-a743-317999bf308d.png)
+
+* The site has a feature where only the user who added the recipe can edit and remove them ![image](https://user-images.githubusercontent.com/95102264/179805447-7a45b119-c3cb-4b58-89d9-ad729b3411e4.png) 
+
 ### General design
 
 * The site has a colourful rustic style, is easy to navigate and understand.  
