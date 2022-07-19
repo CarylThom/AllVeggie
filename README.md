@@ -150,7 +150,17 @@ To fork this project go to the top left of the repository, where you see the For
 
 ## Data Structure
 
+* Entity Relationship Diagram (ERD) created using [draw.io](https://app.diagrams.net/)
 * ![image](https://user-images.githubusercontent.com/95102264/179768032-4bb0a68c-0c0a-4df8-ab77-0f330d084723.png)
+
+## Browser Compatibility
+
+* Microsoft Edge ![image](https://user-images.githubusercontent.com/95102264/179771319-e60f75d5-d5da-495c-a1a4-241bb1907874.png)
+
+* Google Chrome ![image](https://user-images.githubusercontent.com/95102264/179772750-702e4763-f5d5-476c-93e9-15c955e9c1a8.png)
+
+* Mozilla Firefox ![image](https://user-images.githubusercontent.com/95102264/179772261-cce5975d-2808-4a65-8185-5778aef715a4.png)
+
 
 ## Credits
 
