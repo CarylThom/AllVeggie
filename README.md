@@ -117,42 +117,51 @@ Milestone Project 3 Python and Data Centric Development
 
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to Heroku. The live link can be found at [allveggie](https://allveggie.herokuapp.com/)
 
-- In the [GitHub repository](https://github.com/CarylThom/allveggie) navigate to the Settings tab
-- From the source section drop-down menu, select the **Main** Branch, then click "Save".
-- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The steps to deploy a Heroku app are as follows: 
+1.  Log in to Heroku or create an account if required.
+2.  Create a Heroku app - select 'New', from the drop-down menu select Create New App. The app name provided must be unique.
+3.  Select a region.
+4.  click Create.
+5.  Navigate to the Resources tab and add a Heroku Postgres database.
+6.  Access the Settings Tab and find the Config Vars. For this project you will need the following config vars:
+    *   `DATABASE_URL` = the url of your heroku postgres database.
+    *   `SECRET_KEY` = a secret key for your app.
+    *   `PORT` = 5000
+    *   `DEBUG` = set to 'True' during development and 'False' upon deployment.
+    *   `IP` = 0.0.0.0
 
-- The live link can be found [here](https://carylthom.github.io/allveggie/)
+Please see this [official documentation](https://devcenter.heroku.com/articles/config-vars) on Heroku configuration for more details.
 
-Local Deployment
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-- `git clone https://github.com/CarylThom/allveggie.git`
+7.  Navigate to the Deploy tab.
+8.  Select GitHub as the deployment method.
+9.  Follow steps to link to the appropriate GitHub account.
+10. If you wish, enable Automatic Deploys for automatic deployment when you push updates to GitHub. Or alternatively, select the correct branch for deployment from the drop-down menu and click "Deploy Branch" for manual deployment.
 
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+Final steps: 
+1. Create a `Procfile` in your repository containing `web: python app.py` so that Heroku will identify the app as a Python app.
+2. Create an untracked file called `env.py` in your repo and input the config vars you previously established in Heroku above.
+3. Create a `requirements.txt` file
+    - If you want to freeze your own packages into this file, run `pip3 freeze --local > requirements.txt` in the console.
+    - To install only the packages that are already listed in the "allveggie" repo requirements (if making a local copy/clone) run `pip3 install -r requirements.txt` in the console.
 
-Open in Gitpod
+### Cloning
 
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+Cloning a repository makes it easier to contribute, fix merge conflicts, add or remove files, and push larger commits. To clone this repository from GitHub to a local computer use the following steps:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CarylThom/allveggie)
+1.  On GitHub, navigate to the main page of the repository.
+2.  Above the list of files, click Code.
+3.  Click Use GitHub CLI, then the copy icon.
+4.  Open Git Bash and change the current working directory to the location where you want the cloned directory.
+5.  Type git clone, and then paste the URL that was copied from step 3 above - i.e., `git clone https://github.com/CarylThom/allveggie.git`
+6. Press Enter to create the local clone.
 
-## Deployment to Heroku
+### Forking
 
-The site was deployed to Heroku. The steps to deploy are as follows:
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-- Within Gitpod terminal - Create requirements.txt file (pip3 requirements.txt). Move the required packages to requirements.txt (pip3 freeze --local - > requirements.txt).
-- Create Procfile to run the app (echo web:python run.py > Procfile).
-- Push both files (requirements.txt & Procfile) to github repository.
-
-- https://heroku.com/ , select 'New App', name and 'Create App'.
-- In 'resources' tab underneath "add-ons" section, Search for 'Heroku Postgres' and install.
-- In 'Settings' tab find 'Config Vars section, set variables for `DATABASE_URL`, `IP`, `PORT`, `SECRET_KEY` & `DEBUG` (False).
-- Deploy from GitHub repository, 'Connect', 'Enable Automatic Deploys' and 'Deploy Branch'.
-- Add correct file path to DATABASE_URI in `__init__.py` file.
-- To create tables in our database, select 'More', 'Run Console'.
-- Within console type `python3`, `from allveggie import db` and `db.create_all()`.
-- 'Open App' to view [https://allveggie.herokuapp.com/]. 
+To fork this project go to the top left of the repository, where you see the Fork Icon and click Fork.  This will create a copy of the repository for you.
 
 
 ## Credits
