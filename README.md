@@ -75,27 +75,27 @@ Milestone Project 3 Python and Data Centric Development
 
  ## Languages Used
 
-* HTML5 - [https://en.wikipedia.org/wiki/HTML5]
-* CSS3 - [https://en.wikipedia.org/wiki/CSS#CSS_3]
-* JavaScript (ES6) - [https://en.wikipedia.org/wiki/JavaScript]
-* Python3 - [https://en.wikipedia.org/wiki/Python_(programming_language)]
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+* [JavaScript (ES6)](https://en.wikipedia.org/wiki/JavaScript)
+* [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 
 ## Frameworks, Libraries & Programs Used
 
-* Google Fonts: Google Fonts was used for the main font(s).
+* [Google Fonts](https://fonts.google.com/): Was used for the main font(s).
 
-* Font Awesome: Font Awesome was used for all icons.
+* [Font Awesome](https://fontawesome.com/): Was used for all icons.
 
-* Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [Git](https://www.gitpod.io): Was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-* GitHub: GitHub is used to store the project code after being pushed from Git. 
-
+* [GitHub](https://github.com/): Was used to store the project code after being pushed from Git. 
+ 
 * [https://www.Responsivedesignchecker.com]
 
 * Pencil: Pencil was used to create the wireframe.
 
-* Materialize: Materialize was used as an additional design library. [https://materializecss.com/]
+* [Materialize](https://materializecss.com/): Was used as an additional design library. 
 
 ## Testing
 
@@ -176,24 +176,24 @@ To fork this project go to the top left of the repository, where you see the For
 
 * Slack
 
-* Stack Overflow [http://www.stackoverflow.com]
+* [Stack Overflow](http://www.stackoverflow.com)
 
-* w3schools [http://www.w3schools.com]
+* [w3schools](http://www.w3schools.com)
 
 ### Content
 
 * All content was written by the developer except for recipes.
-* Recipes were found at [https://www.bbcgoodfood.com/] and [https://vegsoc.org/] 
+* Recipes were found at [BBC Good Food](https://www.bbcgoodfood.com/) and [Vegetarian Society](https://vegsoc.org/) 
 
 ### Media
 
 * Images attributed to: 
-* Background image by Sonny Mauricio at [https://www.unsplash.com]
-* Forms, modal & recipes background by Kues1 at [https://www.freepik.com/]
-* Mobile sidenav background by timolina at [https://www.freepik.com/]
-* Favicon at [https://www.flaticon.com/] 
+* Background image by Sonny Mauricio at [Unsplash](https://www.unsplash.com)
+* Forms, modal & recipes background by Kues1 at [Freepik](https://www.freepik.com/)
+* Mobile sidenav background by timolina at [Freepik](https://www.freepik.com/)
+* Favicon at [Flaticon](https://www.flaticon.com/) 
 
 ### Future features
 
-* With further development just some of the future features of this site would ideally be a search function for recipes to be found by keyword. It would also have a more personal profile page for users where images and messages could be shared.     
+* With further development just some of the future features of this site would ideally be a search function for recipes to be found by keyword. It would also have a more personal user profile page where images and messages could be shared.     
             
