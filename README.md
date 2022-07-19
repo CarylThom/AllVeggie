@@ -99,22 +99,7 @@ Milestone Project 3 Python and Data Centric Development
 
 ## Testing
 
-* W3C Markup Validator report: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. ![image](https://user-images.githubusercontent.com/95102264/179354173-38a2867b-72b4-482e-b73b-0d1a11494069.png)
-
-* W3C CSS Validator report: No errors were found within the CSS code. ![image](https://user-images.githubusercontent.com/95102264/179354388-d5c0a6b4-3e52-48cc-9529-2a7684eacc80.png)
-
-
-* Javascript Validator report: Using [https://beautifytools.com/javascript-validator.php]  - No errors found within javascript code ![image](https://user-images.githubusercontent.com/95102264/179363194-728bfbfa-b1de-4a70-9bd7-9237c4aca416.png)
-
-* Python test report: Using [https://extendsclass.com/]
-- routes.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364358-f3c36a6d-b53a-4d4b-a59f-d399ad95541f.png)
-- models.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364553-6ddd5ba7-e2a3-4454-ab2f-e22a749c9380.png)
-- init.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364518-087a782b-120d-4e08-ba6a-94fd926ac850.png)
-- app.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364597-23c87f18-8a29-4849-bd26-58436fd8dde9.png)
-
-
-* Lighthouse test report: ![image](https://user-images.githubusercontent.com/95102264/179740012-21e971ff-15ce-46c1-a0a2-7954257535ff.png)
-
+For all testing documentation, please refer to the [TESTING.md](TESTING.md) file.
 ## Deployment
 
 The site was deployed to Heroku. The live link can be found at [allveggie](https://allveggie.herokuapp.com/)
