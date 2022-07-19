@@ -175,6 +175,12 @@ To fork this project go to the top left of the repository, where you see the For
 
 * Mozilla Firefox ![image](https://user-images.githubusercontent.com/95102264/179772261-cce5975d-2808-4a65-8185-5778aef715a4.png)
 
+* Site is responsive on all mobile devices:
+
+* Phone ![image](https://user-images.githubusercontent.com/95102264/179837871-604ad8d9-8ca0-405d-aee9-284aeb9c109e.png)
+
+* Tablet ![image](https://user-images.githubusercontent.com/95102264/179838428-ccc37116-c068-4e4f-bbd2-6ee047ebe2d3.png)
+
 
 ## Credits
 
