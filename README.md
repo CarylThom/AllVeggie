@@ -111,9 +111,9 @@ Milestone Project 3 Python and Data Centric Development
 - models.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364553-6ddd5ba7-e2a3-4454-ab2f-e22a749c9380.png)
 - init.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364518-087a782b-120d-4e08-ba6a-94fd926ac850.png)
 - app.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364597-23c87f18-8a29-4849-bd26-58436fd8dde9.png)
-- env.py - No errors found ![image](https://user-images.githubusercontent.com/95102264/179364629-d3de1edb-3f9b-4f43-8f80-57eec692d067.png)
 
-* Lighthouse test report: ![image](https://user-images.githubusercontent.com/95102264/179394724-12d0504c-7f59-494c-822f-7863f0d65f6c.png)
+
+* Lighthouse test report: ![image](https://user-images.githubusercontent.com/95102264/179740012-21e971ff-15ce-46c1-a0a2-7954257535ff.png)
 
 ## Deployment
 
