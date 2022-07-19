@@ -148,6 +148,9 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 To fork this project go to the top left of the repository, where you see the Fork Icon and click Fork.  This will create a copy of the repository for you.
 
+## Data Structure
+
+* ![image](https://user-images.githubusercontent.com/95102264/179768032-4bb0a68c-0c0a-4df8-ab77-0f330d084723.png)
 
 ## Credits
 
