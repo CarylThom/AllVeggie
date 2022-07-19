@@ -85,7 +85,7 @@ Milestone Project 3 Python and Data Centric Development
 ![image](https://user-images.githubusercontent.com/95102264/178512311-ddceb3e5-5f8a-4a8e-9908-329bcf71dc08.png)
 
 
-* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking. 
+* The initial concept of the wireframe design was to create a aesthetically pleasing easy to navigate site specifically based around rustic, vegetarian and sustainable cooking.
 
  ## Languages Used
 
@@ -200,7 +200,7 @@ To fork this project go to the top left of the repository, where you see the For
 
 ### Content
 
-* All content was written by the developer except for recipes.
+* All content was written by the developer except for the recipes and sections of code that was learned from the relevant lessons of the course.
 * Recipes were found at [BBC Good Food](https://www.bbcgoodfood.com/) and [Vegetarian Society](https://vegsoc.org/) 
 
 ### Media
@@ -214,5 +214,5 @@ To fork this project go to the top left of the repository, where you see the For
 
 ### Future features
 
-* With further development just some of the future features of this site would ideally be a search function for recipes to be found by keyword. It would also have a more personal user profile page where images and messages could be shared.     
+* With further development, just some of the future features of this site would ideally be a search function for recipes to be found by keyword. It would also have a more personal user profile page where images and messages could be shared.     
             

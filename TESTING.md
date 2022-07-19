@@ -20,7 +20,7 @@
 
 * edit_categories.html: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. ![image](https://user-images.githubusercontent.com/95102264/179751574-b3d1959c-abce-4b5b-ab23-a239b3236546.png)
 
-* edit_recipe.html: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. One error was issued within the HTML validation for this page stating 'The select element cannot have more than one selected option descendant unless the multiple attribute is specified'. To rectify this error the multiple attributed was specified , but this addition then stopped other functions within the section of code from functioning, the multipe attribute was removed. ![image](https://user-images.githubusercontent.com/95102264/179754214-2827ae71-fcf3-4001-8fd6-e5872e430d71.png)
+* edit_recipe.html: One warning was issued within the HTML validation stating that 'sections lack headings' - This does not affect the site in any way. One error was issued within the HTML validation for this page stating 'The select element cannot have more than one selected option descendant unless the multiple attribute is specified'. To rectify this error the multiple attributed was specified , but this addition then stopped other functions within the section of code from functioning. The multipe attribute was removed. ![image](https://user-images.githubusercontent.com/95102264/179754214-2827ae71-fcf3-4001-8fd6-e5872e430d71.png)
 
 ### CSS3 using [W3C CSS Validator](http://www.w3.org/)
 
@@ -28,7 +28,7 @@
 
 ### Javascript (ES6) using {beautifytools](https://beautifytools.com/javascript-validator.php)
 
-* Javascript validation report: Issues were flagged during validation. Issues regarding the use of Materialize. To remove these issues 'import M from "Materialize-css";' was added. This removed the issues but affected the javascript code. 'import M from "Materialize-css;"' was rmoved. ![image](https://user-images.githubusercontent.com/95102264/179763631-8b5458ae-17c8-418b-9dae-c66a8018b536.png)
+* Javascript validation report: Issues were flagged during validation. Issues regarding the use of Materialize. To remove these issues 'import M from "Materialize-css";' was added. This removed the issues but affected the javascript code. 'import M from "Materialize-css;"' was removed. ![image](https://user-images.githubusercontent.com/95102264/179763631-8b5458ae-17c8-418b-9dae-c66a8018b536.png)
 
 ## Python3 using [extendsclass](https://extendsclass.com/)
 
