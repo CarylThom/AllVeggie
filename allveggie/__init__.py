@@ -17,7 +17,7 @@ else:
         uri = uri.replace("postgres://", "postgresql://", 1)
     app.config["ELEPHANTSQL_DATABASE_URI"] = uri  # heroku
 
-db = elephantSQL(app)
+db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 from allveggie import routes  # noqa
