@@ -2,7 +2,6 @@ import os
 import re
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 if os.path.exists("env.py"):
     import env  # noqa
 
@@ -18,6 +17,5 @@ else:
     app.config["SQLALCHEMY_DATABASE_URI"] = uri  # heroku
 
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)
 
 from allveggie import routes  # noqa
